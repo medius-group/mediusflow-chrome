@@ -1,7 +1,7 @@
 {
-  "name": "My First Extension",
+  "name": "Meidusflow chrome extension",
   "version": "1.0",
-  "description": "The first extension that I made.",
+  "description": "This is a Chrome extension for Mediusflow.",
   "background_page": "background.html",
   "permissions": [
 	"tabs",
