@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope
+ xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope"
+ xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+ xmlns:ns4="http://schemas.microsoft.com/2003/10/Serialization/"
+ xmlns:ns5="http://schemas.datacontract.org/2004/07/Medius.Gemini.ClientModel"
+ xmlns:ns6="http://schemas.microsoft.com/2003/10/Serialization/Arrays"
+ xmlns:ns3="DomainServices"
+ xmlns:ns1="http://tempuri.org/">
+ <SOAP-ENV:Body>
+  <ns1:GetInvoiceResponse>
+   <ns1:GetInvoiceResult>
+    <ns3:IncludedResults>
+     <ns6:anyType></ns6:anyType>
+     <ns6:anyType></ns6:anyType>
+     <!-- extensibility element(s) -->
+
+    </ns3:IncludedResults>
+    <ns3:RootResults>
+     <ns5:Invoice>
+      <ns5:BookingDate>2011-04-08T07:12:26Z</ns5:BookingDate>
+      <ns5:CompanyId>0</ns5:CompanyId>
+      <ns5:Currency></ns5:Currency>
+      <ns5:DueDate>2011-04-08T07:12:26Z</ns5:DueDate>
+      <ns5:EnvironmentalFee></ns5:EnvironmentalFee>
+      <ns5:FreeText1></ns5:FreeText1>
+      <ns5:FreeText2></ns5:FreeText2>
+      <ns5:FreeText3></ns5:FreeText3>
+      <ns5:FreeText4></ns5:FreeText4>
+      <ns5:FreeText5></ns5:FreeText5>
+      <ns5:FreightCost></ns5:FreightCost>
+      <ns5:IntegrationStatus></ns5:IntegrationStatus>
+      <ns5:InvoiceComment></ns5:InvoiceComment>
+      <ns5:InvoiceDate>2011-04-08T07:12:26Z</ns5:InvoiceDate>
+      <ns5:InvoiceFreeText>
+       <ns5:Fields>
+        <ns5:InvoiceFreeTextFields>
+         <ns5:Active>false</ns5:Active>
+         <ns5:Description></ns5:Description>
+         <ns5:Tag></ns5:Tag>
+         <!-- extensibility element(s) -->
+
+        </ns5:InvoiceFreeTextFields>
+        <ns5:InvoiceFreeTextFields>
+         <ns5:Active>false</ns5:Active>
+         <ns5:Description></ns5:Description>
+         <ns5:Tag></ns5:Tag>
+         <!-- extensibility element(s) -->
+
+        </ns5:InvoiceFreeTextFields>
+        <!-- extensibility element(s) -->
+
+       </ns5:Fields>
+       <ns5:IsEditable>false</ns5:IsEditable>
+       <ns5:IsVisible>false</ns5:IsVisible>
+       <!-- extensibility element(s) -->
+
+      </ns5:InvoiceFreeText>
+      <ns5:InvoiceId>0</ns5:InvoiceId>
+      <ns5:InvoiceNumber></ns5:InvoiceNumber>
+      <ns5:InvoiceSupplier></ns5:InvoiceSupplier>
+      <ns5:InvoiceTypeDescription></ns5:InvoiceTypeDescription>
+      <ns5:InvoiceTypeId></ns5:InvoiceTypeId>
+      <ns5:IsInvoiceInOpenPeriod>false</ns5:IsInvoiceInOpenPeriod>
+      <ns5:OpenPeriod></ns5:OpenPeriod>
+      <ns5:OtherCosts></ns5:OtherCosts>
+      <ns5:PackingFee></ns5:PackingFee>
+      <ns5:Partner></ns5:Partner>
+      <ns5:PaymentDate>2011-04-08T07:12:26Z</ns5:PaymentDate>
+      <ns5:Reference></ns5:Reference>
+      <ns5:Rounding></ns5:Rounding>
+      <ns5:ScanningDate>2011-04-08T07:12:26Z</ns5:ScanningDate>
+      <ns5:SupplierId>0</ns5:SupplierId>
+      <ns5:TotalAmount></ns5:TotalAmount>
+      <ns5:TotalAmountExclVat></ns5:TotalAmountExclVat>
+      <ns5:VAT></ns5:VAT>
+      <!-- extensibility element(s) -->
+
+     </ns5:Invoice>
+     <ns5:Invoice>
+      <ns5:BookingDate>2011-04-08T07:12:26Z</ns5:BookingDate>
+      <ns5:CompanyId>0</ns5:CompanyId>
+      <ns5:Currency></ns5:Currency>
+      <ns5:DueDate>2011-04-08T07:12:26Z</ns5:DueDate>
+      <ns5:EnvironmentalFee></ns5:EnvironmentalFee>
+      <ns5:FreeText1></ns5:FreeText1>
+      <ns5:FreeText2></ns5:FreeText2>
+      <ns5:FreeText3></ns5:FreeText3>
+      <ns5:FreeText4></ns5:FreeText4>
+      <ns5:FreeText5></ns5:FreeText5>
+      <ns5:FreightCost></ns5:FreightCost>
+      <ns5:IntegrationStatus></ns5:IntegrationStatus>
+      <ns5:InvoiceComment></ns5:InvoiceComment>
+      <ns5:InvoiceDate>2011-04-08T07:12:26Z</ns5:InvoiceDate>
+      <ns5:InvoiceFreeText>
+       <ns5:Fields>
+        <ns5:InvoiceFreeTextFields>
+         <ns5:Active>false</ns5:Active>
+         <ns5:Description></ns5:Description>
+         <ns5:Tag></ns5:Tag>
+         <!-- extensibility element(s) -->
+
+        </ns5:InvoiceFreeTextFields>
+        <ns5:InvoiceFreeTextFields>
+         <ns5:Active>false</ns5:Active>
+         <ns5:Description></ns5:Description>
+         <ns5:Tag></ns5:Tag>
+         <!-- extensibility element(s) -->
+
+        </ns5:InvoiceFreeTextFields>
+        <!-- extensibility element(s) -->
+
+       </ns5:Fields>
+       <ns5:IsEditable>false</ns5:IsEditable>
+       <ns5:IsVisible>false</ns5:IsVisible>
+       <!-- extensibility element(s) -->
+
+      </ns5:InvoiceFreeText>
+      <ns5:InvoiceId>0</ns5:InvoiceId>
+      <ns5:InvoiceNumber></ns5:InvoiceNumber>
+      <ns5:InvoiceSupplier></ns5:InvoiceSupplier>
+      <ns5:InvoiceTypeDescription></ns5:InvoiceTypeDescription>
+      <ns5:InvoiceTypeId></ns5:InvoiceTypeId>
+      <ns5:IsInvoiceInOpenPeriod>false</ns5:IsInvoiceInOpenPeriod>
+      <ns5:OpenPeriod></ns5:OpenPeriod>
+      <ns5:OtherCosts></ns5:OtherCosts>
+      <ns5:PackingFee></ns5:PackingFee>
+      <ns5:Partner></ns5:Partner>
+      <ns5:PaymentDate>2011-04-08T07:12:26Z</ns5:PaymentDate>
+      <ns5:Reference></ns5:Reference>
+      <ns5:Rounding></ns5:Rounding>
+      <ns5:ScanningDate>2011-04-08T07:12:26Z</ns5:ScanningDate>
+      <ns5:SupplierId>0</ns5:SupplierId>
+      <ns5:TotalAmount></ns5:TotalAmount>
+      <ns5:TotalAmountExclVat></ns5:TotalAmountExclVat>
+      <ns5:VAT></ns5:VAT>
+      <!-- extensibility element(s) -->
+
+     </ns5:Invoice>
+     <!-- extensibility element(s) -->
+
+    </ns3:RootResults>
+    <ns3:TotalCount>0</ns3:TotalCount>
+    <!-- extensibility element(s) -->
+
+   </ns1:GetInvoiceResult>
+  </ns1:GetInvoiceResponse>
+ </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

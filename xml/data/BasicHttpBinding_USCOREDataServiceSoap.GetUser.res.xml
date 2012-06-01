@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope
+ xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope"
+ xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+ xmlns:ns4="http://schemas.microsoft.com/2003/10/Serialization/"
+ xmlns:ns5="http://schemas.datacontract.org/2004/07/Medius.Gemini.ClientModel"
+ xmlns:ns6="http://schemas.microsoft.com/2003/10/Serialization/Arrays"
+ xmlns:ns3="DomainServices"
+ xmlns:ns1="http://tempuri.org/">
+ <SOAP-ENV:Body>
+  <ns1:GetUserResponse>
+   <ns1:GetUserResult>
+    <ns3:IncludedResults>
+     <ns6:anyType></ns6:anyType>
+     <ns6:anyType></ns6:anyType>
+     <!-- extensibility element(s) -->
+
+    </ns3:IncludedResults>
+    <ns3:RootResults>
+     <ns5:User>
+      <ns5:Culture></ns5:Culture>
+      <ns5:FirstName></ns5:FirstName>
+      <ns5:FullName></ns5:FullName>
+      <ns5:LanguageId>0</ns5:LanguageId>
+      <ns5:LastName></ns5:LastName>
+      <ns5:UserId>0</ns5:UserId>
+      <ns5:UserName></ns5:UserName>
+      <!-- extensibility element(s) -->
+
+     </ns5:User>
+     <ns5:User>
+      <ns5:Culture></ns5:Culture>
+      <ns5:FirstName></ns5:FirstName>
+      <ns5:FullName></ns5:FullName>
+      <ns5:LanguageId>0</ns5:LanguageId>
+      <ns5:LastName></ns5:LastName>
+      <ns5:UserId>0</ns5:UserId>
+      <ns5:UserName></ns5:UserName>
+      <!-- extensibility element(s) -->
+
+     </ns5:User>
+     <!-- extensibility element(s) -->
+
+    </ns3:RootResults>
+    <ns3:TotalCount>0</ns3:TotalCount>
+    <!-- extensibility element(s) -->
+
+   </ns1:GetUserResult>
+  </ns1:GetUserResponse>
+ </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

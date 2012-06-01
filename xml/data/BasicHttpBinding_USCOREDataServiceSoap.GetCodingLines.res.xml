@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope
+ xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope"
+ xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+ xmlns:ns4="http://schemas.microsoft.com/2003/10/Serialization/"
+ xmlns:ns5="http://schemas.datacontract.org/2004/07/Medius.Gemini.ClientModel"
+ xmlns:ns6="http://schemas.microsoft.com/2003/10/Serialization/Arrays"
+ xmlns:ns3="DomainServices"
+ xmlns:ns1="http://tempuri.org/">
+ <SOAP-ENV:Body>
+  <ns1:GetCodingLinesResponse>
+   <ns1:GetCodingLinesResult>
+    <ns3:IncludedResults>
+     <ns6:anyType></ns6:anyType>
+     <ns6:anyType></ns6:anyType>
+     <!-- extensibility element(s) -->
+
+    </ns3:IncludedResults>
+    <ns3:RootResults>
+     <ns5:CodingLine>
+      <ns5:AccrualAccountId>0</ns5:AccrualAccountId>
+      <ns5:AccrualNumberOfPeriods>0</ns5:AccrualNumberOfPeriods>
+      <ns5:AccrualStart>2011-04-08T07:12:26Z</ns5:AccrualStart>
+      <ns5:Approved>false</ns5:Approved>
+      <ns5:ApprovedByUserId>0</ns5:ApprovedByUserId>
+      <ns5:CodingId>0</ns5:CodingId>
+      <ns5:CodingLineId>0</ns5:CodingLineId>
+      <ns5:CodingLineTag>Unknown</ns5:CodingLineTag>
+      <ns5:Comment></ns5:Comment>
+      <ns5:Deletable>false</ns5:Deletable>
+      <ns5:Dimension10Id>0</ns5:Dimension10Id>
+      <ns5:Dimension10Value></ns5:Dimension10Value>
+      <ns5:Dimension11Id>0</ns5:Dimension11Id>
+      <ns5:Dimension11Value></ns5:Dimension11Value>
+      <ns5:Dimension12Id>0</ns5:Dimension12Id>
+      <ns5:Dimension12Value></ns5:Dimension12Value>
+      <ns5:Dimension1Id>0</ns5:Dimension1Id>
+      <ns5:Dimension1Value></ns5:Dimension1Value>
+      <ns5:Dimension2Id>0</ns5:Dimension2Id>
+      <ns5:Dimension2Value></ns5:Dimension2Value>
+      <ns5:Dimension3Id>0</ns5:Dimension3Id>
+      <ns5:Dimension3Value></ns5:Dimension3Value>
+      <ns5:Dimension4Id>0</ns5:Dimension4Id>
+      <ns5:Dimension4Value></ns5:Dimension4Value>
+      <ns5:Dimension5Id>0</ns5:Dimension5Id>
+      <ns5:Dimension5Value></ns5:Dimension5Value>
+      <ns5:Dimension6Id>0</ns5:Dimension6Id>
+      <ns5:Dimension6Value></ns5:Dimension6Value>
+      <ns5:Dimension7Id>0</ns5:Dimension7Id>
+      <ns5:Dimension7Value></ns5:Dimension7Value>
+      <ns5:Dimension8Id>0</ns5:Dimension8Id>
+      <ns5:Dimension8Value></ns5:Dimension8Value>
+      <ns5:Dimension9Id>0</ns5:Dimension9Id>
+      <ns5:Dimension9Value></ns5:Dimension9Value>
+      <ns5:DimensionVatId>0</ns5:DimensionVatId>
+      <ns5:DimensionVatValue></ns5:DimensionVatValue>
+      <ns5:Enabled>false</ns5:Enabled>
+      <ns5:FreeText4></ns5:FreeText4>
+      <ns5:FreeText5></ns5:FreeText5>
+      <ns5:Gross></ns5:Gross>
+      <ns5:Identity></ns5:Identity>
+      <ns5:IsApprovalFieldEnabled>false</ns5:IsApprovalFieldEnabled>
+      <ns5:IsBalanceFieldEnabled>false</ns5:IsBalanceFieldEnabled>
+      <ns5:IsDimensionFieldEnabled>false</ns5:IsDimensionFieldEnabled>
+      <ns5:IsResponsibleUserFieldEnabled>false</ns5:IsResponsibleUserFieldEnabled>
+      <ns5:Net></ns5:Net>
+      <ns5:Quantity></ns5:Quantity>
+      <ns5:ResponsibleUserId>0</ns5:ResponsibleUserId>
+      <ns5:Vat></ns5:Vat>
+      <!-- extensibility element(s) -->
+
+     </ns5:CodingLine>
+     <ns5:CodingLine>
+      <ns5:AccrualAccountId>0</ns5:AccrualAccountId>
+      <ns5:AccrualNumberOfPeriods>0</ns5:AccrualNumberOfPeriods>
+      <ns5:AccrualStart>2011-04-08T07:12:26Z</ns5:AccrualStart>
+      <ns5:Approved>false</ns5:Approved>
+      <ns5:ApprovedByUserId>0</ns5:ApprovedByUserId>
+      <ns5:CodingId>0</ns5:CodingId>
+      <ns5:CodingLineId>0</ns5:CodingLineId>
+      <ns5:CodingLineTag>Unknown</ns5:CodingLineTag>
+      <ns5:Comment></ns5:Comment>
+      <ns5:Deletable>false</ns5:Deletable>
+      <ns5:Dimension10Id>0</ns5:Dimension10Id>
+      <ns5:Dimension10Value></ns5:Dimension10Value>
+      <ns5:Dimension11Id>0</ns5:Dimension11Id>
+      <ns5:Dimension11Value></ns5:Dimension11Value>
+      <ns5:Dimension12Id>0</ns5:Dimension12Id>
+      <ns5:Dimension12Value></ns5:Dimension12Value>
+      <ns5:Dimension1Id>0</ns5:Dimension1Id>
+      <ns5:Dimension1Value></ns5:Dimension1Value>
+      <ns5:Dimension2Id>0</ns5:Dimension2Id>
+      <ns5:Dimension2Value></ns5:Dimension2Value>
+      <ns5:Dimension3Id>0</ns5:Dimension3Id>
+      <ns5:Dimension3Value></ns5:Dimension3Value>
+      <ns5:Dimension4Id>0</ns5:Dimension4Id>
+      <ns5:Dimension4Value></ns5:Dimension4Value>
+      <ns5:Dimension5Id>0</ns5:Dimension5Id>
+      <ns5:Dimension5Value></ns5:Dimension5Value>
+      <ns5:Dimension6Id>0</ns5:Dimension6Id>
+      <ns5:Dimension6Value></ns5:Dimension6Value>
+      <ns5:Dimension7Id>0</ns5:Dimension7Id>
+      <ns5:Dimension7Value></ns5:Dimension7Value>
+      <ns5:Dimension8Id>0</ns5:Dimension8Id>
+      <ns5:Dimension8Value></ns5:Dimension8Value>
+      <ns5:Dimension9Id>0</ns5:Dimension9Id>
+      <ns5:Dimension9Value></ns5:Dimension9Value>
+      <ns5:DimensionVatId>0</ns5:DimensionVatId>
+      <ns5:DimensionVatValue></ns5:DimensionVatValue>
+      <ns5:Enabled>false</ns5:Enabled>
+      <ns5:FreeText4></ns5:FreeText4>
+      <ns5:FreeText5></ns5:FreeText5>
+      <ns5:Gross></ns5:Gross>
+      <ns5:Identity></ns5:Identity>
+      <ns5:IsApprovalFieldEnabled>false</ns5:IsApprovalFieldEnabled>
+      <ns5:IsBalanceFieldEnabled>false</ns5:IsBalanceFieldEnabled>
+      <ns5:IsDimensionFieldEnabled>false</ns5:IsDimensionFieldEnabled>
+      <ns5:IsResponsibleUserFieldEnabled>false</ns5:IsResponsibleUserFieldEnabled>
+      <ns5:Net></ns5:Net>
+      <ns5:Quantity></ns5:Quantity>
+      <ns5:ResponsibleUserId>0</ns5:ResponsibleUserId>
+      <ns5:Vat></ns5:Vat>
+      <!-- extensibility element(s) -->
+
+     </ns5:CodingLine>
+     <!-- extensibility element(s) -->
+
+    </ns3:RootResults>
+    <ns3:TotalCount>0</ns3:TotalCount>
+    <!-- extensibility element(s) -->
+
+   </ns1:GetCodingLinesResult>
+  </ns1:GetCodingLinesResponse>
+ </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

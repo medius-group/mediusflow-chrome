@@ -1,0 +1,21 @@
+<html>
+<head>
+<script src="http://ajax.microsoft.com/ajax/jquery/jquery-1.4.2.js" type="text/javascript"></script> 
+<script src="./scripts/mediusFlow.js" type="text/javascript"></script>
+<script>
+  function openTab () {
+	chrome.tabs.create({url:String("https://online.mediusflow.com/sharp/test")});
+	}
+  
+  //Login();  
+  
+  chrome.browserAction.setBadgeBackgroundColor({color:[0, 0, 0, 0]});
+  chrome.browserAction.setBadgeText({text:String("23")});
+  
+  //countTasks();
+  
+  chrome.browserAction.onClicked.addListener(openTab);  
+  
+  </script>
+</head>
+</html>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope
+ xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope"
+ xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+ xmlns:ns4="http://schemas.microsoft.com/2003/10/Serialization/"
+ xmlns:ns5="http://schemas.datacontract.org/2004/07/Medius.Gemini.ClientModel"
+ xmlns:ns6="http://schemas.microsoft.com/2003/10/Serialization/Arrays"
+ xmlns:ns3="DomainServices"
+ xmlns:ns1="http://tempuri.org/">
+ <SOAP-ENV:Body>
+  <ns1:GetAccountRuleSetResponse>
+   <ns1:GetAccountRuleSetResult>
+    <ns3:IncludedResults>
+     <ns6:anyType></ns6:anyType>
+     <ns6:anyType></ns6:anyType>
+     <!-- extensibility element(s) -->
+
+    </ns3:IncludedResults>
+    <ns3:RootResults>
+     <ns5:AccountRuleSet>
+      <ns5:AccountId>0</ns5:AccountId>
+      <ns5:Rules>
+       <ns5:AccountRule>
+        <ns5:Dimension>Dimension1</ns5:Dimension>
+        <ns5:Rule>None</ns5:Rule>
+        <ns5:RuleAccountId>0</ns5:RuleAccountId>
+        <!-- extensibility element(s) -->
+
+       </ns5:AccountRule>
+       <ns5:AccountRule>
+        <ns5:Dimension>Dimension1</ns5:Dimension>
+        <ns5:Rule>None</ns5:Rule>
+        <ns5:RuleAccountId>0</ns5:RuleAccountId>
+        <!-- extensibility element(s) -->
+
+       </ns5:AccountRule>
+       <!-- extensibility element(s) -->
+
+      </ns5:Rules>
+      <!-- extensibility element(s) -->
+
+     </ns5:AccountRuleSet>
+     <ns5:AccountRuleSet>
+      <ns5:AccountId>0</ns5:AccountId>
+      <ns5:Rules>
+       <ns5:AccountRule>
+        <ns5:Dimension>Dimension1</ns5:Dimension>
+        <ns5:Rule>None</ns5:Rule>
+        <ns5:RuleAccountId>0</ns5:RuleAccountId>
+        <!-- extensibility element(s) -->
+
+       </ns5:AccountRule>
+       <ns5:AccountRule>
+        <ns5:Dimension>Dimension1</ns5:Dimension>
+        <ns5:Rule>None</ns5:Rule>
+        <ns5:RuleAccountId>0</ns5:RuleAccountId>
+        <!-- extensibility element(s) -->
+
+       </ns5:AccountRule>
+       <!-- extensibility element(s) -->
+
+      </ns5:Rules>
+      <!-- extensibility element(s) -->
+
+     </ns5:AccountRuleSet>
+     <!-- extensibility element(s) -->
+
+    </ns3:RootResults>
+    <ns3:TotalCount>0</ns3:TotalCount>
+    <!-- extensibility element(s) -->
+
+   </ns1:GetAccountRuleSetResult>
+  </ns1:GetAccountRuleSetResponse>
+ </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

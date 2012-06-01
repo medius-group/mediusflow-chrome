@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope
+ xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope"
+ xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+ xmlns:ns4="http://schemas.microsoft.com/2003/10/Serialization/"
+ xmlns:ns5="http://schemas.datacontract.org/2004/07/Medius.Gemini.ClientModel"
+ xmlns:ns6="http://schemas.microsoft.com/2003/10/Serialization/Arrays"
+ xmlns:ns3="DomainServices"
+ xmlns:ns1="http://tempuri.org/">
+ <SOAP-ENV:Body>
+  <ns1:GetCodingConfigurationResponse>
+   <ns1:GetCodingConfigurationResult>
+    <ns5:CompanyId>0</ns5:CompanyId>
+    <ns5:DimensionLabels>
+     <ns6:KeyValueOfCodingDimensionstringr8kEkmAS>
+      <ns6:Key>One</ns6:Key>
+      <ns6:Value></ns6:Value>
+     </ns6:KeyValueOfCodingDimensionstringr8kEkmAS>
+     <ns6:KeyValueOfCodingDimensionstringr8kEkmAS>
+      <ns6:Key>One</ns6:Key>
+      <ns6:Value></ns6:Value>
+     </ns6:KeyValueOfCodingDimensionstringr8kEkmAS>
+     <!-- extensibility element(s) -->
+
+    </ns5:DimensionLabels>
+    <ns5:Dimensions>
+     <ns5:CodingDimension>One</ns5:CodingDimension>
+     <ns5:CodingDimension>One</ns5:CodingDimension>
+     <!-- extensibility element(s) -->
+
+    </ns5:Dimensions>
+    <!-- extensibility element(s) -->
+
+   </ns1:GetCodingConfigurationResult>
+  </ns1:GetCodingConfigurationResponse>
+ </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
