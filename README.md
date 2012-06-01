@@ -2,7 +2,9 @@ mediusflow-chrome
 =================
 
 Installation:
+
 1. Download or clone this repo.
+
 2. Open background.html and replace "[[Mediusflow URL]]" with the URL to your Mediusflow installation.
 
 3. Open Google Chrome.
