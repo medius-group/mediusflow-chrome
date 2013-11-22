@@ -1,8 +1,9 @@
 {
-  "name": "Meidusflow chrome extension",
-  "version": "1.0",
+  "name": "Mediusflow Chrome Extension",
+  "version": "2.0",
+  "manifest_version": 2,
+  "options_page": "options.html",
   "description": "This is a Chrome extension for Mediusflow.",
-  "background_page": "background.html",
   "permissions": [
 	"tabs",
 	"http://www.w3.org/2003/05/soap-envelope",
@@ -12,12 +13,14 @@
 	"http://schemas.datacontract.org/2004/07/Medius.Gemini.ClientModel",
 	"http://schemas.microsoft.com/2003/10/Serialization/",
 	"http://schemas.microsoft.com/2003/10/Serialization/Arrays",
-	"DomainServices",
 	"http://tempuri.org/",
-	"https://online.mediusflow.com/sharp/frontend/*"
+	"https://*.mediusflow.com/*"
   ],
+  "background":{
+  	"scripts": ["jquery.js", "eventPage.js"]
+   },
   "browser_action": {
 	"name": "Mediusflow Chrome Extension",
-    "default_icon": "mediuscircle.png"
+    	"default_icon": "mediuscircle.png"
   }
 }
