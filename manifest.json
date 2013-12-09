@@ -1,11 +1,12 @@
 {
-  "name": "Mediusflow Chrome Extension",
-  "version": "2.0",
+  "name": "Mediusflow for Chrome (unofficial)",
+  "version": "0.3",
   "manifest_version": 2,
   "options_page": "options.html",
-  "description": "This is a Chrome extension for Mediusflow.",
+  "description": "This is an unofficial Chrome extension for Mediusflow. Notice that the application is not supported by Medius.",
   "permissions": [
 	"tabs",
+  	"alarms",
 	"http://www.w3.org/2003/05/soap-envelope",
 	"http://www.w3.org/2003/05/soap-encoding",
 	"http://www.w3.org/2001/XMLSchema-instance",
@@ -20,7 +21,7 @@
   	"scripts": ["jquery.js", "eventPage.js"]
    },
   "browser_action": {
-	"name": "Mediusflow Chrome Extension",
+	"name": "Mediusflow for Chrome",
     	"default_icon": "mediuscircle.png"
   }
 }
